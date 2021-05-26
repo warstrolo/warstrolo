@@ -1,7 +1,10 @@
 ### Hi everyone 👋
 
-- 💻 I am a fullstack developper
+- 💻 I am a fullstack developper (C, C++, C#, Python, Java, Nodejs, Html, php, CSS, Js, RUST, Elixir, Go)
 - 🔭 I’m currently working on Galaxiat
+- 🖥️ I am a cloud architect
+- 👨‍💼 I am a project manager
+- ⏩ I am strategy director
 
 [![Warstrolo GitHub stats](https://github-readme-stats.vercel.app/api?username=warstrolo&count_private=true&show_icons=true&theme=dark)](https://github.com/warstrolo)
 <!--[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=warstrolo&count_private=true&show_icons=true&theme=dark)](https://github.com/warstrolo)-->
