@@ -4,7 +4,7 @@
 - 🔭 I’m currently working on Galaxiat
 
 [![Warstrolo GitHub stats](https://github-readme-stats.vercel.app/api?username=warstrolo&count_private=true&show_icons=true&theme=dark)](https://github.com/warstrolo)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=warstrolo&count_private=true&show_icons=true&theme=dark)](https://github.com/warstrolo)
+<!--[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=warstrolo&count_private=true&show_icons=true&theme=dark)](https://github.com/warstrolo)-->
 [![My Wakatime](https://github-readme-stats.vercel.app/api/wakatime?username=warstrolo&layout=compact&show_icons=true&theme=dark)](https://wakatime.com/@warstrolo)
 <!--
 **warstrolo/warstrolo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
