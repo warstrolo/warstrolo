@@ -13,7 +13,7 @@
 
 - 📫 How to reach me **warstrolo.wizard@gmail.com**
 
-- 📄 Know about my experiences [https://www.linkedin.com/in/paul-millet-490585206](https://www.linkedin.com/in/paul-millet-490585206)
+- 📄 Know about my experiences [https://www.linkedin.com/in/paul-millet-490585206](https://www.linkedin.com/in/paul-millet)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
