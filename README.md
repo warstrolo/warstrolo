@@ -9,7 +9,7 @@
 
 - 🌱 I’m currently learning **Cloud architecture**
 
-- 💬 Ask me about **GO, Elixir, Rust, React, React Native**
+- 💬 Ask me about **GO, Elixir, Rust, React, React Native, Cassandra DB, RethinkDB**
 
 - 📫 How to reach me **warstrolo.wizard@gmail.com**
 
