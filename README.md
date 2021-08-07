@@ -6,7 +6,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=warstrolo&cache=false" alt="warstrolo" /></a> </p>
 
-- 🔭 I’m currently working on A realy new project
+- 🔭 I’m currently working on a really new project
 
 - 🌱 I’m currently learning **Cloud architecture**
 
