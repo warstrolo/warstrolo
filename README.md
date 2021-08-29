@@ -33,4 +33,6 @@
 
 [![My Wakatime](https://github-readme-stats.vercel.app/api/wakatime?username=warstrolo&layout=compact&show_icons=true)](https://wakatime.com/@warstrolo)
 
+[](https://activity-graph.herokuapp.com/graph?username=warstrolo&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true)
+
 ![](https://hit.yhype.me/github/profile?user_id=58334832)
