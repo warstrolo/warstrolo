@@ -12,7 +12,9 @@
 
 - 💬 Ask me about **GO, Elixir, Rust, React, React Native, Cassandra DB, RethinkDB**
 
-- 📫 How to reach me **warstrolo.wizard@gmail.com**
+- 📫 How to reach me **paul.d.millet2@gmail.com**
+
+- 🌐 Galaxiat project : https://galaxiatapp.com
 
 - 📄 Know about my experiences [https://www.linkedin.com/in/paul-millet](https://www.linkedin.com/in/paul-millet)
 
