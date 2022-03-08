@@ -2,8 +2,8 @@ import Stars from "../components/stars";
 
 export default function Skils() {
   return (
-    <div className="flex justify-center p-10 min-h-screen">
-      <div className="bg-base-200 shadow-2xl rounded-md w-2/3 text-center">
+    <div className="flex justify-center pt-10 lg:p-10 min-h-screen">
+      <div className="bg-base-200 shadow-2xl rounded-md w-full lg:w-2/3 text-center">
         <h1 id="stats" className="text-white text-3xl">
           {"My stats"}
         </h1>
