@@ -1,8 +1,9 @@
 dev:
 	npm run start
-
+install:
+	npm install
 build:
 	npm run build
 
 release:
-	cp ./build ../docs
+	cp -rfT ./build ../release
