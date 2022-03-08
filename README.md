@@ -14,7 +14,7 @@
 
 - 📫 How to reach me **me@paulmillet.net**
 
-- 🌐 All my projects and skils : https://paulmillet.net
+- 🌐 All my projects and skils : https://www.paulmillet.net
 
 - 🌐 Galaxiat project : https://galaxiatapp.com
 
