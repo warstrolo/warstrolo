@@ -20,3 +20,4 @@ jobs:
         username: ${{ secrets.username }}
         password: ${{ secrets.password }}
         local-dir: "./release/"
+        server-dir: "./www/"
