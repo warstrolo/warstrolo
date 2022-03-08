@@ -4,3 +4,5 @@ dev:
 build:
 	npm run build
 
+release:
+	cp ./build ../docs
