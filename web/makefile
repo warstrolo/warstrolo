@@ -5,5 +5,7 @@ install:
 build:
 	npm run build
 
-release:
+release: build
 	cp -rfT ./build ../release
+
+.PHONY: build release dev install

@@ -18,9 +18,9 @@ export default function Skils() {
                   className="inline-block w-8 h-8 stroke-current"
                 >
                   <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
                   ></path>
                 </svg>
@@ -55,7 +55,7 @@ export default function Skils() {
               <div className="stat-figure text-secondary">
                 <div className="avatar online">
                   <div className="w-16 rounded-full">
-                    <img src="https://avatars.githubusercontent.com/u/58334832?v=4" />
+                    <img src="https://avatars.githubusercontent.com/u/58334832?v=4" alt="My Avatar"/>
                   </div>
                 </div>
               </div>
@@ -147,7 +147,7 @@ export default function Skils() {
                     name="Golang"
                     type="Lang"
                     usage_type="production"
-                    usage_project={["Galaxiat"]}
+                    usage_project={["Galaxiat", "TheExtraApp"]}
                     rating={5}
                     urls={[
                       {
@@ -165,7 +165,7 @@ export default function Skils() {
                     name="TypeScript"
                     type="Lang"
                     usage_type="production"
-                    usage_project={["Galaxiat", "Join4Join"]}
+                    usage_project={["Galaxiat", "MonHangar"]}
                     rating={5}
                     urls={[
                       {
@@ -215,11 +215,25 @@ export default function Skils() {
                     ]}
                   />
                   <RowComponent
+                    img_src="/logo/github.png"
+                    name="Github"
+                    type="Tools"
+                    usage_type="production"
+                    usage_project={["All"]}
+                    rating={5}
+                    urls={[
+                      {
+                        link: "https://github.com/",
+                        source: "website",
+                      },
+                    ]}
+                  />
+                  <RowComponent
                     img_src="/logo/react.png"
                     name="React"
                     type="Framework"
                     usage_type="production"
-                    usage_project={["Galaxiat"]}
+                    usage_project={["Galaxiat", "Join4Join"]}
                     rating={5}
                     urls={[
                       {
@@ -237,7 +251,7 @@ export default function Skils() {
                     name="React Native"
                     type="Framework"
                     usage_type="production"
-                    usage_project={["Galaxiat"]}
+                    usage_project={["Galaxiat", "TheExtraApp"]}
                     rating={5}
                     urls={[
                       {
@@ -256,7 +270,7 @@ export default function Skils() {
                     name="Express.JS"
                     type="Framework"
                     usage_type="production"
-                    usage_project={["Galaxiat"]}
+                    usage_project={["MonHangar"]}
                     rating={5}
                     urls={[
                       {
@@ -273,9 +287,9 @@ export default function Skils() {
                     img_src="/logo/tauri.png"
                     name="Tauri"
                     type="Framework"
-                    usage_type="production"
-                    usage_project={["Galaxiat"]}
-                    rating={5}
+                    usage_type="developement"
+                    usage_project={["Non Released Project"]}
+                    rating={4}
                     urls={[
                       {
                         link: "https://tauri.studio/",
@@ -293,7 +307,7 @@ export default function Skils() {
                     type="Framework"
                     usage_type="production"
                     usage_project={["Galaxiat"]}
-                    rating={5}
+                    rating={4}
                     urls={[
                       {
                         link: "https://www.electronjs.org/",
@@ -301,6 +315,219 @@ export default function Skils() {
                       },
                       {
                         link: "https://github.com/electron",
+                        source: "github",
+                      },
+                    ]}
+                  />
+                  <RowComponent
+                    img_src="/logo/cassandra.webp"
+                    name="Apache Cassandra"
+                    type="Database"
+                    usage_type="production"
+                    usage_project={["MonHangar","Galaxiat" ]}
+                    rating={4}
+                    urls={[
+                      {
+                        link: "https://cassandra.apache.org",
+                        source: "website",
+                      },
+                      {
+                        link: "https://github.com/apache/cassandra",
+                        source: "github",
+                      },
+                    ]}
+                  />
+                  <RowComponent
+                    img_src="/logo/kafka.png"
+                    name="Apache Kafka"
+                    type="Database"
+                    usage_type="production"
+                    usage_project={["Galaxiat", "TheExtraApp"]}
+                    rating={4}
+                    urls={[
+                      {
+                        link: "https://kafka.apache.org/",
+                        source: "website",
+                      },
+                      {
+                        link: "https://github.com/apache/kafka",
+                        source: "github",
+                      },
+                    ]}
+                  />
+
+                  <RowComponent
+                    img_src="/logo/etcd.png"
+                    name="ETCD"
+                    type="Database"
+                    usage_type="production"
+                    usage_project={["TheExtraApp", "Galaxiat"]}
+                    rating={4}
+                    urls={[
+                      {
+                        link: "https://etcd.io/",
+                        source: "website",
+                      },
+                      {
+                        link: "https://github.com/etcd-io",
+                        source: "github",
+                      },
+                    ]}
+                  />
+                  <RowComponent
+                    img_src="/logo/tailwindcss.png"
+                    name="Tailwindcss"
+                    type="Framework"
+                    usage_type="production"
+                    usage_project={["Join4Join", "Galaxiat"]}
+                    rating={4}
+                    urls={[
+                      {
+                        link: "https://tailwindcss.com/",
+                        source: "website",
+                      },
+                      {
+                        link: "https://github.com/tailwindlabs",
+                        source: "github",
+                      },
+                    ]}
+                  />
+                  <RowComponent
+                    img_src="/logo/unknow.png"
+                    name="React Snap"
+                    type="Tools"
+                    usage_type="production"
+                    usage_project={["Join4Join", "Galaxiat"]}
+                    rating={4}
+                    urls={[
+                      {
+                        link: "https://github.com/stereobooster/react-snap",
+                        source: "github",
+                      },
+                    ]}
+                  />
+                  <RowComponent
+                    img_src="/logo/kubernetes.png"
+                    name="Kubernetes"
+                    type="Software"
+                    usage_type="production"
+                    usage_project={["Galaxiat", "Join4Join"]}
+                    rating={4}
+                    urls={[
+                      {
+                        link: "https://kubernetes.io/",
+                        source: "website",
+                      },
+                      {
+                        link: "https://github.com/kubernetes/kubernetes",
+                        source: "github",
+                      },
+                    ]}
+                  />
+                  <RowComponent
+                    img_src="/logo/open-stack.png"
+                    name="Open-Stack"
+                    type="Software"
+                    usage_type="production"
+                    usage_project={["Join4Join","Galaxiat"]}
+                    rating={3}
+                    urls={[
+                      {
+                        link: "https://www.openstack.org/",
+                        source: "website",
+                      },
+                      {
+                        link: "https://github.com/openstack",
+                        source: "github",
+                      },
+                    ]}
+                  />
+                  <RowComponent
+                    img_src="/logo/minio.png"
+                    name="MinIO"
+                    type="Object Storage"
+                    usage_type="production"
+                    usage_project={["TheExtraApp", "Galaxiat"]}
+                    rating={3}
+                    urls={[
+                      {
+                        link: "https://min.io/",
+                        source: "website",
+                      },
+                      {
+                        link: "https://github.com/minio",
+                        source: "github",
+                      },
+                    ]}
+                  />
+                  <RowComponent
+                    img_src="/logo/rancher.png"
+                    name="Rancher"
+                    type="Software"
+                    usage_type="production"
+                    usage_project={["Galaxiat", "Join4Join"]}
+                    rating={4}
+                    urls={[
+                      {
+                        link: "https://rancher.com/",
+                        source: "website",
+                      },
+                      {
+                        link: "https://github.com/rancher",
+                        source: "github",
+                      },
+                    ]}
+                  />
+                  <RowComponent
+                    img_src="/logo/longhorn.png"
+                    name="LongHorn"
+                    type="Object Storage"
+                    usage_type="production"
+                    usage_project={["Join4Join"]}
+                    rating={4}
+                    urls={[
+                      {
+                        link: "https://longhorn.io/",
+                        source: "website",
+                      },
+                      {
+                        link: "https://github.com/longhorn",
+                        source: "github",
+                      },
+                    ]}
+                  />
+                  <RowComponent
+                    img_src="/logo/kubesphere.png"
+                    name="KubeSphere"
+                    type="Software"
+                    usage_type="developement"
+                    usage_project={["Non Released Project"]}
+                    rating={4}
+                    urls={[
+                      {
+                        link: "https://kubesphere.io/",
+                        source: "website",
+                      },
+                      {
+                        link: "https://github.com/kubesphere",
+                        source: "github",
+                      },
+                    ]}
+                  />
+                  <RowComponent
+                    img_src="/logo/rke.png"
+                    name="RKE"
+                    type="Software"
+                    usage_type="production"
+                    usage_project={["Galaxiat", "Join4Join"]}
+                    rating={4}
+                    urls={[
+                      {
+                        link: "https://rancher.com/products/rke",
+                        source: "website",
+                      },
+                      {
+                        link: "https://github.com/rancher/rke2",
                         source: "github",
                       },
                     ]}
@@ -406,7 +633,7 @@ export default function Skils() {
                     img_src="/logo/join4join.png"
                     name="Join4Join"
                     type="Launched"
-                    job="Founder & Core Matainer"
+                    job="Founder & Core Maintainer"
                     working_atm={false}
                     owned={true}
                     urls={[
@@ -461,7 +688,17 @@ export default function Skils() {
 type row_propstype = {
   img_src: string;
   name: string;
-  type: "Lang" | "Framework" | "Lib" | "Software";
+  type:
+    | "Lang"
+    | "Framework"
+    | "Object Storage"
+    | "Block Storage"
+    | "Lib"
+    | "Software"
+    | "Database"
+    | "Cache"
+    | "Tools"
+    | "SaaS";
   usage_type: "developement" | "production";
   usage_project: string[];
   rating: number;
@@ -491,10 +728,19 @@ function RowComponent(props: row_propstype) {
         </div>
       </td>
       <td>
-        {props.usage_type}
+        {props.usage_type === "production" ? (
+          <span className="text-green-400">{props.usage_type}</span>
+        ) : (
+          <span className="text-yellow-400">{props.usage_type}</span>
+        )}
         <br />
-        {props.usage_project.map((project) => {
-          <span className="badge badge-ghost badge-sm">{project}</span>;
+
+        {props.usage_project.map((project, key) => {
+          return (
+            <span key={key} className="badge badge-ghost badge-sm">
+              {project}
+            </span>
+          );
         })}
       </td>
       <td>
@@ -502,7 +748,7 @@ function RowComponent(props: row_propstype) {
       </td>
       <th>
         {props.urls.map((url) => (
-          <a href={url.link} target={"_blank"} className="btn btn-ghost btn-xs">
+          <a href={url.link} target={"_blank"} rel="noreferrer" className="btn btn-ghost btn-xs">
             {url.source}
           </a>
         ))}
@@ -517,7 +763,7 @@ type project_row_propstype = {
   type: "Launched" | "Stale" | "Dead" | "Work In Progress";
   job: string;
   working_atm: boolean;
-  owned : boolean;
+  owned: boolean;
   urls: {
     link: string;
     source: "github" | "website";
@@ -543,16 +789,28 @@ function ProjectRowComponent(props: project_row_propstype) {
           </div>
         </div>
       </td>
-      <td>{props.job}
-      <br />
+      <td>
+        {props.job}
+        <br />
 
-      {props.working_atm ? <span className="badge badge-primary badge-sm">Working ATM</span> : <span className="badge badge-ghost badge-sm">No longer working here</span>} 
-
+        {props.working_atm ? (
+          <span className="badge badge-primary badge-sm">Working ATM</span>
+        ) : (
+          <span className="badge badge-ghost badge-sm">
+            No longer working here
+          </span>
+        )}
       </td>
-      <td>{props.owned ? <h3 className="text-green-400">Yes</h3> : <h3 className="text-red-400">No</h3>}</td>
+      <td>
+        {props.owned ? (
+          <h3 className="text-green-400">Yes</h3>
+        ) : (
+          <h3 className="text-red-400">No</h3>
+        )}
+      </td>
       <th>
         {props.urls.map((url) => (
-          <a href={url.link} target={"_blank"} className="btn btn-ghost btn-xs">
+          <a href={url.link} target={"_blank"} rel="noreferrer" className="btn btn-ghost btn-xs">
             {url.source}
           </a>
         ))}
