@@ -99,7 +99,7 @@ export default function Skils() {
         </div>
         <div className="divider">AND</div>
         <h1 id="skils" className="text-white text-3xl">
-        <a href="skils">{"Global Skils"}</a> 
+          <a href="#skils">{"Global Skils"}</a>
         </h1>
         <div className="flex justify-center m-5">
           <div className="bg-base-100 w-full lg:w-2/3 rounded-xl shadow">
@@ -111,7 +111,6 @@ export default function Skils() {
                 duration={1000}
                 className={"progress progress-success"}
               />
-
             </div>
             <div className="flex items-center p-1">
               <span className="text-base-content/70 w-48 text-sm">Cloud</span>
@@ -132,7 +131,6 @@ export default function Skils() {
                 duration={1000}
                 className={"progress progress-secondary"}
               />
-
             </div>
             <div className="flex items-center p-1">
               <span className="text-base-content/70 w-48 text-sm">
@@ -160,7 +158,7 @@ export default function Skils() {
         </div>
         <div className="divider">AND</div>
         <h1 id="tools" className="text-white text-3xl">
-        <a href="tools"> {"Things I use"}</a>
+          <a href="#tools"> {"Things I use"}</a>
         </h1>
         <h2 className="text-white text-2xl">
           {"Not all is in the list, things will be added 😊"}
@@ -586,7 +584,7 @@ export default function Skils() {
         </div>
         <div className="divider">AND</div>
         <h1 id="projects" className="text-white text-3xl">
-          <a href="projects"> {"My Project (only those I can share)"}</a>
+          <a href="#projects"> {"My Project (only those I can share)"}</a>
         </h1>
         <div className="flex justify-center m-5">
           <div className="bg-base-100 w-full lg:w-2/3 rounded-xl shadow">
@@ -904,11 +902,11 @@ function IncrementCounter(props: IncrementCounterProps) {
 }
 type ProgressProps = {
   end: number;
-  max : number;
+  max: number;
   duration: number;
-  className : string;
+  className: string;
 };
-function AnnimatedProgress(props : ProgressProps) {
+function AnnimatedProgress(props: ProgressProps) {
   const [count, setcount] = useState("0");
   useEffect(() => {
     let start = 0;
@@ -923,7 +921,5 @@ function AnnimatedProgress(props : ProgressProps) {
       if (String(start) == end_string_l3) clearInterval(timer);
     }, increment_time);
   }, []);
-  return (
-    <progress max={props.max} value={count} className={props.className} />
-  );
+  return <progress max={props.max} value={count} className={props.className} />;
 }
