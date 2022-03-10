@@ -1,6 +1,11 @@
+import { useEffect, useState } from "react";
 import Stars from "../components/stars";
 
 export default function Skils() {
+  const numProject = 9;
+  const numContrib = 5400;
+  const numHours = 12;
+
   return (
     <div className="flex justify-center pt-10 lg:p-10 min-h-screen">
       <div className="bg-base-200 shadow-2xl rounded-md w-full lg:w-2/3 text-center">
@@ -26,7 +31,14 @@ export default function Skils() {
                 </svg>
               </div>
               <div className="stat-title">Total Project</div>
-              <div className="stat-value text-primary">9</div>
+              <div className="stat-value text-primary">
+                <IncrementCounter
+                  duration={1000}
+                  end={numProject}
+                  end_label={""}
+                  label={""}
+                />
+              </div>
               <div className="stat-desc">Project I'm working on right now</div>
             </div>
 
@@ -47,7 +59,14 @@ export default function Skils() {
                 </svg>
               </div>
               <div className="stat-title">Year Contribution</div>
-              <div className="stat-value text-secondary">~5.4k</div>
+              <div className="stat-value text-secondary">
+                <IncrementCounter
+                  duration={1000}
+                  end={numContrib}
+                  end_label={""}
+                  label={""}
+                />
+              </div>
               <div className="stat-desc">Number of issue or commit</div>
             </div>
 
@@ -55,11 +74,22 @@ export default function Skils() {
               <div className="stat-figure text-secondary">
                 <div className="avatar online">
                   <div className="w-16 rounded-full">
-                    <img src="https://avatars.githubusercontent.com/u/58334832?v=4" alt="My Avatar"/>
+                    <img
+                      src="https://avatars.githubusercontent.com/u/58334832?v=4"
+                      alt="My Avatar"
+                    />
                   </div>
                 </div>
               </div>
-              <div className="stat-value">12h+</div>
+              <div className="stat-value">
+                {" "}
+                <IncrementCounter
+                  duration={1000}
+                  end={numHours}
+                  end_label={"+"}
+                  label={"h"}
+                />
+              </div>
               <div className="stat-title">Work day</div>
               <div className="stat-desc text-green-400">
                 Avaliable (8h - 22h)
@@ -69,61 +99,68 @@ export default function Skils() {
         </div>
         <div className="divider">AND</div>
         <h1 id="skils" className="text-white text-3xl">
-          {"Global Skils"}
+        <a href="skils">{"Global Skils"}</a> 
         </h1>
         <div className="flex justify-center m-5">
           <div className="bg-base-100 w-full lg:w-2/3 rounded-xl shadow">
             <div className="flex items-center p-1">
               <span className="text-base-content/70 w-48 text-sm">Backend</span>
-              <progress
-                max="100"
-                value="90"
-                className="progress progress-success"
+              <AnnimatedProgress
+                max={100}
+                end={90}
+                duration={1000}
+                className={"progress progress-success"}
               />
+
             </div>
             <div className="flex items-center p-1">
               <span className="text-base-content/70 w-48 text-sm">Cloud</span>
-              <progress
-                max="100"
-                value="85"
-                className="progress progress-primary"
+              <AnnimatedProgress
+                max={100}
+                end={85}
+                duration={1000}
+                className={"progress progress-primary"}
               />
             </div>
             <div className="flex items-center p-1">
               <span className="text-base-content/70 w-48 text-sm">
                 Frontend
               </span>
-              <progress
-                max="100"
-                value="80"
-                className="progress progress-secondary"
+              <AnnimatedProgress
+                max={100}
+                end={80}
+                duration={1000}
+                className={"progress progress-secondary"}
               />
+
             </div>
             <div className="flex items-center p-1">
               <span className="text-base-content/70 w-48 text-sm">
                 Sysadmin
               </span>
-              <progress
-                max="100"
-                value="75"
-                className="progress progress-accent"
+              <AnnimatedProgress
+                max={100}
+                end={75}
+                duration={1000}
+                className={"progress progress-accent"}
               />
             </div>
             <div className="flex items-center p-1">
               <span className="text-base-content/70 w-48 text-sm">
                 Cloud Architect
               </span>
-              <progress
-                max="100"
-                value="70"
-                className="progress progress-warning"
+              <AnnimatedProgress
+                max={100}
+                end={70}
+                duration={1000}
+                className={"progress progress-warning"}
               />
             </div>
           </div>
         </div>
         <div className="divider">AND</div>
         <h1 id="tools" className="text-white text-3xl">
-          {"Things I use"}
+        <a href="tools"> {"Things I use"}</a>
         </h1>
         <h2 className="text-white text-2xl">
           {"Not all is in the list, things will be added 😊"}
@@ -324,7 +361,7 @@ export default function Skils() {
                     name="Apache Cassandra"
                     type="Database"
                     usage_type="production"
-                    usage_project={["MonHangar","Galaxiat" ]}
+                    usage_project={["MonHangar", "Galaxiat"]}
                     rating={4}
                     urls={[
                       {
@@ -429,7 +466,7 @@ export default function Skils() {
                     name="Open-Stack"
                     type="Software"
                     usage_type="production"
-                    usage_project={["Join4Join","Galaxiat"]}
+                    usage_project={["Join4Join", "Galaxiat"]}
                     rating={3}
                     urls={[
                       {
@@ -549,7 +586,7 @@ export default function Skils() {
         </div>
         <div className="divider">AND</div>
         <h1 id="projects" className="text-white text-3xl">
-          {"My Project (only those I can share)"}
+          <a href="projects"> {"My Project (only those I can share)"}</a>
         </h1>
         <div className="flex justify-center m-5">
           <div className="bg-base-100 w-full lg:w-2/3 rounded-xl shadow">
@@ -748,7 +785,12 @@ function RowComponent(props: row_propstype) {
       </td>
       <th>
         {props.urls.map((url) => (
-          <a href={url.link} target={"_blank"} rel="noreferrer" className="btn btn-ghost btn-xs">
+          <a
+            href={url.link}
+            target={"_blank"}
+            rel="noreferrer"
+            className="btn btn-ghost btn-xs"
+          >
             {url.source}
           </a>
         ))}
@@ -810,11 +852,78 @@ function ProjectRowComponent(props: project_row_propstype) {
       </td>
       <th>
         {props.urls.map((url) => (
-          <a href={url.link} target={"_blank"} rel="noreferrer" className="btn btn-ghost btn-xs">
+          <a
+            href={url.link}
+            target={"_blank"}
+            rel="noreferrer"
+            className="btn btn-ghost btn-xs"
+          >
             {url.source}
           </a>
         ))}
       </th>
     </tr>
+  );
+}
+
+type IncrementCounterProps = {
+  end: number;
+  duration: number;
+  end_label: string;
+  label: string;
+};
+function IncrementCounter(props: IncrementCounterProps) {
+  const [count, setcount] = useState("0");
+  useEffect(() => {
+    let start = 0;
+    const end_string = props.end.toString();
+    const end_string_m3 = end_string.substring(3);
+    const end_string_l3 = end_string.substring(0, 3);
+    if (end_string_l3 == String(start)) return;
+    let increment_time = props.duration / props.end;
+    const parse_num = (num: number): string => {
+      if (num > 1000000) {
+        return `${(num / 1000000).toFixed(1)}M`;
+      } else if (num > 1000) {
+        return `${(num / 1000).toFixed(1)}K`;
+      } else {
+        return `${num}`;
+      }
+    };
+    let timer = setInterval(() => {
+      start += 1;
+      setcount(parse_num(parseInt(String(start) + end_string_m3)));
+      if (String(start) == end_string_l3) clearInterval(timer);
+    }, increment_time);
+  }, []);
+  return (
+    <>{`${count}${props.label}${
+      count == String(props.end) ? `${props.end_label}` : ""
+    }`}</>
+  );
+}
+type ProgressProps = {
+  end: number;
+  max : number;
+  duration: number;
+  className : string;
+};
+function AnnimatedProgress(props : ProgressProps) {
+  const [count, setcount] = useState("0");
+  useEffect(() => {
+    let start = 0;
+    const end_string = props.end.toString();
+    const end_string_m3 = end_string.substring(3);
+    const end_string_l3 = end_string.substring(0, 3);
+    if (end_string_l3 == String(start)) return;
+    let increment_time = props.duration / props.end;
+    let timer = setInterval(() => {
+      start += 1;
+      setcount(String(start) + end_string_m3);
+      if (String(start) == end_string_l3) clearInterval(timer);
+    }, increment_time);
+  }, []);
+  return (
+    <progress max={props.max} value={count} className={props.className} />
   );
 }
