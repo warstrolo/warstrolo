@@ -10,7 +10,7 @@ export default function Skils() {
     <div className="flex justify-center pt-10 lg:p-10 min-h-screen">
       <div className="bg-base-200 shadow-2xl rounded-md w-full lg:w-2/3 text-center">
         <h1 id="stats" className="text-white text-3xl">
-         <a href="#stats">{"My stats"}</a> 
+         <a href="#stats" >{"My stats"}</a> 
         </h1>
         <div className="flex justify-center m-5">
           <div className="stats stats-vertical lg:stats-horizontal shadow w-full lg:w-2/3 ">
