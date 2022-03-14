@@ -645,7 +645,7 @@ export default function Skils() {
                     owned={false}
                     urls={[
                       {
-                        link: "https://redstart.fr",
+                        link: "https://www.redstart.fr",
                         source: "website",
                       },
                     ]}
