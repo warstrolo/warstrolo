@@ -40,3 +40,5 @@
 [![Graph](https://activity-graph.herokuapp.com/graph?username=warstrolo&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true)]()
 
 ![](https://hit.yhype.me/github/profile?user_id=58334832)
+
+[![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=warstrolo)](https://paulmillet.net)
