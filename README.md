@@ -3,6 +3,7 @@
 <h3 align="center">A fullstack developer from France</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=warstrolo&label=Profile%20views&color=0e75b6&style=flat" alt="warstrolo" /> </p>
+[![wakatime](https://wakatime.com/badge/user/79d4136b-6b3d-476b-a86c-68ffbb31f559.svg)](https://wakatime.com/@79d4136b-6b3d-476b-a86c-68ffbb31f559)
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=warstrolo&cache=false" alt="warstrolo" /></a> </p>
 
