@@ -8,7 +8,11 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=warstrolo&cache=false" alt="warstrolo" /></a> </p>
 
-- 🔭 I’m currently working on a really new project
+- 🔭 I’m currently working on a new project (galaxiat)
+
+- 👑 I'm the co-founder of Galaxiat & Blue2Start 
+
+- ⏫ I was the core maintainer of Join4Join (45k users) and Bot-Hosting (7k users)
 
 - 🌱 I’m currently learning **Cloud architecture**
 
