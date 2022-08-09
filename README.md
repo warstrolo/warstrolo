@@ -8,13 +8,15 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=warstrolo&cache=false" alt="warstrolo" /></a> </p>
 
-- 🔭 I’m currently working on a new project (galaxiat)
+- 🔭 I’m currently looking at new products 
 
-- 👑 I'm the co-founder of Galaxiat & Blue2Start 
+- 👑 I'm the co-founder of [LaMeDuSe](https://linked) & PAJO 
 
-- ⏫ I was the core maintainer of Join4Join (45k users) and Bot-Hosting (7k users)
+- ⏫ I love working on exiting new project !
 
-- 🌱 I’m currently learning **Cloud architecture**
+- 😍 I follow the [10 Egoless Programming Commandments](https://blog.codinghorror.com/the-ten-commandments-of-egoless-programming/) and the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+
+- 🌱 I’m currently working on **Cloud architecture**
 
 - 💬 Ask me about **GO, Elixir, Rust, React, React Native, Cassandra DB, RethinkDB**
 
@@ -22,7 +24,7 @@
 
 - 🌐 All my projects and skils : https://www.paulmillet.net
 
-- 🌐 Galaxiat project : https://galaxiatapp.com
+- 🌐 LaMeDuSe project : https://github.com/lameduse
 
 - 📄 Know about my experiences [https://www.linkedin.com/in/paul-millet](https://www.linkedin.com/in/paul-millet)
 
