@@ -10,7 +10,7 @@
 
 - 🔭 I’m currently looking at new products 
 
-- 👑 I'm the co-founder of [LaMeDuSe](https://linked) & PAJO 
+- 👑 I'm the co-founder of [LaMeDuSe](https://linkedin.com/company/lameduse) & PAJO 
 
 - ⏫ I love working on exiting new project !
 
