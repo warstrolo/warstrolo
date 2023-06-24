@@ -1,6 +1,6 @@
 
 <h1 align="center">Hi 👋, I'm Paul Millet</h1>
-<h3 align="center">A entrepreneur from France</h3>
+<h3 align="center">An entrepreneur from France</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=warstrolo&label=Profile%20views&color=0e75b6&style=flat" alt="warstrolo" /> </p>
 
